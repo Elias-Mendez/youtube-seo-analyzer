@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>YouTube SEO Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>YouTube Video SEO Analyzer</h1>
+    <form action="/analyze" method="post">
+        <label for="title">Título del Video:</label><br>
+        <input type="text" id="title" name="title" required><br><br>
+
+        <label for="description">Descripción del Video:</label><br>
+        <textarea id="description" name="description" rows="6" required></textarea><br><br>
+
+        <button type="submit">Analizar</button>
+    </form>
+</body>
+</html>
